@@ -1,0 +1,7 @@
+# Database Configuration Template
+# Set your environment variables (DB_URL, DB_USER, DB_PASSWORD)
+# Or copy this file to 'db.properties' (which is git-ignored) for local development:
+
+db.url=jdbc:mysql://localhost:3306/vehicle_rental?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=your_database_password_here

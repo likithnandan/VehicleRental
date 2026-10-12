@@ -1,0 +1,26 @@
+# Maven target build output
+target/
+*.war
+*.class
+*.jar
+
+# Local database secrets & environment files
+src/main/resources/db.properties
+db.properties
+.env
+*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS and temporary files
+*.log
+cookies.txt
+cust_cookies.txt
+Thumbs.db
+.DS_Store
